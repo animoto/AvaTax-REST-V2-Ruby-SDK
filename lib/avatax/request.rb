@@ -31,9 +31,6 @@ module AvaTax
           request.body = model.to_json unless model.empty?
         end
       end
-
-      #::Hashie::Mash.new response.body
-      response.body
     end
 
   end
